@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: black;
+}
+
+/* ============primary css end ================== */
+
+.box{
+    width: 500px;
+    margin: 50px auto;
+    border: 2px solid #ca2192;
+    text-align: center;
+    padding: 20px 0;
+    background: #fff;
+}
+
+.headline{
+    color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.headline2{
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.playerone{
+    margin-top: 30px;
+}
+
+.playertwo{
+    display: none;
+    margin-top: 30px;
+}
+
+.playeroneinput, .playertwoinput{
+    padding: 8px 10px;
+    margin-top: 25px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+}
+
+.playeronebtn, .playertwobtn{
+    padding: 8px 10px;
+    border-radius: 10px;
+    background: burlywood;
+    border: 2px solid burlywood;
+    color: white;
+}
